@@ -31,7 +31,6 @@ export default function Home() {
 
     if (hasError) return;
 
-    // Add your login logic here (e.g., API call to authenticate)
     console.log("Email:", email);
     console.log("Password:", password);
   };
@@ -40,7 +39,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
       <div className="flex flex-row gap-3 mb-10">
         <Image src={devlogo} alt="devlinks" />
-        <p className="font-bold text-2xl">devlinks</p>
+        <p className="font-bold text-2xl text-[#000000]">devlinks</p>
       </div>
       <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-lg">
         <div className="mb-10">
